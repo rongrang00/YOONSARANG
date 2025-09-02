@@ -89,7 +89,16 @@
       .gallery{grid-template-columns:repeat(2,1fr)}
     }
 
-</style>
+
+    /* === CTA Buttons (Red palette) === */
+    .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+    .btn.sky{
+      background:linear-gradient(135deg,#ef4444,#f43f5e,#fb7185);
+      color:#0b0c10;border-color:transparent;
+      box-shadow:0 10px 26px rgba(244,63,94,.25)
+    }50%{background-position:100% 50%}100%{background-position:0% 50%}}
+
+  </style>
 </head>
 <body>
   <header>
@@ -121,6 +130,10 @@
           <span class="chip">Brand Visual</span>
           <span class="chip">Graphic Design</span>
         </div>
+        <div class="cta" role="group" aria-label="주요 행동 버튼">
+          <a class="btn sky" href="#projects" aria-label="작업 보러가기">작업 보러가기</a>
+        </div>
+
         
       </article>
       <aside class="card pad">
